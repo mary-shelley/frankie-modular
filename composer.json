@@ -1,0 +1,30 @@
+{
+    "name": "wdalmut/frankie-modular",
+    "description": "Frankie Modules",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Walter Dal Mut",
+            "email": "walter.dalmut@gmail.com"
+        }
+    ],
+    "require": {
+        "acclimate/container": "~2",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "wdalmut/frankie": "dev-master",
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Corley\\Modular\\": ["./src"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Corley\\Modular\\": ["./tests"]
+        }
+    }
+}
